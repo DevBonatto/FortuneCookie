@@ -33,7 +33,7 @@ Neste desafio foi criado um jogo chamado Biscoito da Sorte, no qual o usuário, 
 ## 🎉 Extras
 - Adicionando uma animação ao background do body.
 
-Proposta:
+## 📝 Proposta
 <p align="center">
   <img alt="Proposta do projeto" src="assets/project.png" width="100%">
 </p>
