@@ -76,6 +76,9 @@ main p {
 
 main img {
   max-width: 100%;
+}
+
+main .animation {
   cursor: pointer;
 }
 
