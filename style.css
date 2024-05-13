@@ -116,6 +116,12 @@ main .section-02 p {
   animation-duration: 2s;
 }
 
+@media (max-width: 700px) { 
+  main {
+    margin-top: 0;
+  }
+}
+
 /* Animations */
 @keyframes background-animation {
   0% {background: var(--linear-purple30) no-repeat}
