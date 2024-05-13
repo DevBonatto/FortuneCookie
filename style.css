@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+
+  --linear-purple30: linear-gradient(30deg, #190361 0%, #B0F 100%);
+  --linear-purple45: linear-gradient(45deg, #190361 0%, #B0F 100%);
+  --linear-purple60: linear-gradient(60deg, #190361 0%, #B0F 100%);
+  --linear-purple75: linear-gradient(75deg, #190361 0%, #B0F 100%);
+  --linear-purple90: linear-gradient(90deg, #190361 0%, #B0F 100%);
+  --pure-white: rgb(255, 255, 255);
+  --box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.80);
+  --box-shadow-2: .2rem .2rem .2rem 0 rgba(85, 85, 85, 0.50);
+  --grey: #E4EDF1;
+  --black-blue: rgb(52, 53, 91);
+  --orange: rgb(255, 149, 0);
+  --orange-hover: rgba(255, 149, 0, 0.7);
+  --black: rgb(0, 0, 0);
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background: var(--linear-purple30) no-repeat;
+  animation-name: background-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background-color: var(--pure-white);
+  box-shadow: var(--box-shadow);
+  margin-top: -12rem;
+  width: min(42.8rem, 90%);
+  border-radius: .5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  padding: 4.8rem 6.4rem 6.4rem;
+}
+
+main h1 {
+  color: var(--black-blue);
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  margin-bottom: 1.4rem;
+}
+
+main p {
+  color: var(--black-blue);
+  font-family: "DM Sans";
+  font-size: 1.5rem;
+  font-weight: 400;
+
+  margin-bottom: 2.0rem;
+}
+
+main img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+main .animation:hover {
+  animation-name: cookie-animation;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+main button {
+  color: var(--pure-white);
+  padding: 1.6rem;
+  border-radius: .4rem;
+  margin-top: 3.3rem;
+  border-style: none;
+  background-color: var(--orange);
+  transition: .5s;
+}
+
+main button:hover {
+  background-color: var(--orange-hover);
+  cursor: pointer;
+}
+
+main .section-02 p {
+  padding: 1rem;
+  background: var(--grey);
+  box-shadow: var(--box-shadow-2);
+
+  color: var(--black);
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 2.4rem;
+  font-weight: 400;
+
+  animation-name: phrase-animation;
+  animation-duration: 2s;
+}
+
+/* Animations */
+@keyframes background-animation {
+  0% {background: var(--linear-purple30) no-repeat}
+  25% {background: var(--linear-purple45) no-repeat}
+  50% {background: var(--linear-purple60) no-repeat}
+  75% {background: var(--linear-purple75) no-repeat}
+  100% {background: var(--linear-purple90) no-repeat}
+}
+
+@keyframes cookie-animation {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes phrase-animation {
+  from {
+    transform: scale(0);
+    margin-bottom: -12rem;
+  }
+  to {
+    transform: scale(1);
+  }
+}
