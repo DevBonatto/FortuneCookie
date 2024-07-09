@@ -40,7 +40,7 @@ Neste desafio foi criado um jogo chamado Biscoito da Sorte, no qual o usuário, 
 </p>
 
 ## ✅ Resultado
-- [Acesse o resultado finalizado do jogo Biscoito da Sorte, online](https://devbonatto.github.io/FortuneCookie/)
+[Acesse o resultado finalizado do jogo Biscoito da Sorte, online](https://devbonatto.github.io/FortuneCookie/)
 
 
 ## 🔖 Layout
