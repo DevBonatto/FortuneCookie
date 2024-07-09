@@ -47,7 +47,7 @@ function toggleScreen() {
 }
 
 function handleEnterPress(event) {
-  if (event.key === 'Enter' && section2.classList.contains('hide')) {
+  if(event.key === 'Enter' && section2.classList.contains('hide')) {
     handleClick()
   }
 }
