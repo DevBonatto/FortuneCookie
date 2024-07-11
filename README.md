@@ -47,4 +47,4 @@ Neste desafio foi criado um jogo chamado Biscoito da Sorte, no qual o usuário, 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1182751789348533739/biscoito-da-sorte)
 
 ## 📄 Documentação Lógica
-[CLIQUE AQUI](https://drive.google.com/file/d/1vovNbSSWm3ezbdjSP12-QzKFtfL9nv42/view?usp=sharing) para ver a documentação lógica do projeto.
+[CLIQUE AQUI](https://drive.google.com/file/d/1jmSr6MIU4Sm_OtZl9hTaE_RpKcj004or/view?usp=sharing) para ver a documentação lógica do projeto.
